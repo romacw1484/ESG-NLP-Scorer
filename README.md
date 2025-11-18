@@ -1,6 +1,8 @@
 # ESG-NLP-Scorer
 Simple application with front end which pulls news from company/firm and assigns esg ratings based on related articles
 
+taken ispo from this site -- https://www.lseg.com/en/data-analytics/sustainable-finance/esg-scores
+
 Project Files
 
 **app.py -** builds the Flask web UI, wiring form submissions to SEC scraping and ESG scoring; it calls get_filing_urls/get_real_10k_document_url from src/sec_fetcher.py and filter_esg_sentences from src/scoring.py, then renders templates/index.html with any results.
